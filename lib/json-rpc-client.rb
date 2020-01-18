@@ -1,4 +1,4 @@
-require "json/rpc/client/version"
+require "jsonrpc/version"
 
 module Json
   module Rpc

@@ -1,22 +1,22 @@
-require_relative 'lib/json/rpc/client/version'
+require_relative 'lib/jsonrpc/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "json-rpc-client"
-  spec.version       = Json::Rpc::Client::VERSION
+  spec.version       = JsonRPC::VERSION
   spec.authors       = ["SergeyMell"]
   spec.email         = ["sergey.mell@agilie.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{JSON-RPC v2.0 client}
+  spec.description   = %q{Simple JSON-RPC v2.0 client implementation}
+  spec.homepage      = "https://github.com/agilie/json-rpc-client"
   spec.license       = "MIT"
   spec.required_ruby_version = Gem::Requirement.new(">= 2.3.0")
 
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "TODO: Put your gem's public repo URL here."
-  spec.metadata["changelog_uri"] = "TODO: Put your gem's CHANGELOG.md URL here."
+  spec.metadata["source_code_uri"] = "https://github.com/agilie/json-rpc-client"
+  spec.metadata["changelog_uri"] = "https://github.com/agilie/json-rpc-client/blob/master/CHANGELOG.md"
 
   # Specify which files should be added to the gem when it is released.
   # The `git ls-files -z` loads the files in the RubyGem that have been added into git.
