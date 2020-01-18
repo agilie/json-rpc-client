@@ -1,8 +1,6 @@
-# Json::Rpc::Client
+# JSON RPC Client
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/json/rpc/client`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Simple ruby implementation of [JSON-RPC protocol](https://www.jsonrpc.org/specification)
 
 ## Installation
 
@@ -24,21 +22,30 @@ Or install it yourself as:
 
 TODO: Write usage instructions here
 
+## Troubleshooting
+
+Problems? Check the [Issues](https://github.com/agilie/json-rpc-client/issues) block to find 
+the solution or create an new issue that we will fix asap. Feel free to contribute.
+This project is intended to be a safe, welcoming space for collaboration.
+
+## Author
+This gem is open-sourced by [Agilie Team](https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Ruby&utm_term=json_rpc_client) ([web@agilie.com](mailto:web@agilie.com))
+
+## Contributor
+[Sergey Mell](https://github.com/SergeyMell)
+
+## Contact us
+If you have any questions, suggestions or just need a help with web or mobile development, 
+please email us at <web@agilie.com>. You can ask us anything from basic to complex questions.
+
+We will continue publishing new open-source projects. Stay with us, more updates will follow!
+
+## License
+
+The gem is available as open source under the [MIT](LICENSE.md) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Ruby&utm_term=json_rpc_client)
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
 
 To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
-
-## Contributing
-
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/json-rpc-client. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [code of conduct](https://github.com/[USERNAME]/json-rpc-client/blob/master/CODE_OF_CONDUCT.md).
-
-
-## License
-
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
-
-## Code of Conduct
-
-Everyone interacting in the Json::Rpc::Client project's codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/json-rpc-client/blob/master/CODE_OF_CONDUCT.md).
