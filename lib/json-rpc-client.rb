@@ -1,10 +1,8 @@
-require "jsonrpc/version"
+require 'jsonrpc/version'
+require 'jsonrpc/configuration'
+#require 'jsonrpc/socket_client'
 
-module Json
-  module Rpc
-    module Client
-      class Error < StandardError; end
-      # Your code goes here...
-    end
-  end
+module JsonRPC
+  extend Configuration
+
 end
