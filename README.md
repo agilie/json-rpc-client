@@ -44,6 +44,13 @@ We will continue publishing new open-source projects. Stay with us, more updates
 
 The gem is available as open source under the [MIT](LICENSE.md) License (MIT) Copyright © 2017 [Agilie Team](https://www.agilie.com?utm_source=github&utm_medium=referral&utm_campaign=Git_Ruby&utm_term=json_rpc_client)
 
+## TODOS
+1. Error handling
+2. Socket close
+3. Incode Documentation
+4. Cover functionality with tests
+5. Add http client
+
 ## Development
 
 After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake test` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
