@@ -7,7 +7,7 @@ GEM
   remote: https://rubygems.org/
   specs:
     minitest (5.13.0)
-    rake (12.3.2)
+    rake (12.3.3)
 
 PLATFORMS
   ruby
@@ -15,7 +15,7 @@ PLATFORMS
 DEPENDENCIES
   json-rpc-client!
   minitest (~> 5.0)
-  rake (~> 12.0)
+  rake (~> 12.3)
 
 BUNDLED WITH
    2.1.4
